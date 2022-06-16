@@ -1,0 +1,18 @@
+[
+  {
+    "type": "mvd:headquarterLocation",
+    "scope": "contract.negotiation",
+    "leftOperand": {
+      "type": "field",
+      "value": "selfDescription.gx-participant:headquarterAddress.gx-participant:country.@value"
+    }
+  },
+  {
+    "type": "mvd:legalAddressLocation",
+    "scope": "contract.negotiation",
+    "leftOperand": {
+      "type": "field",
+      "value": "selfDescription.gx-participant:legalAddress.gx-participant:country.@value"
+    }
+  }
+]
